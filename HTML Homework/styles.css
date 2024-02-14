@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(143, 155, 121);
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+.logo{
+    width: 350px;
+    height: 300px;
+}
+
+.animals{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.animals:hover{
+    background-color: rgb(213, 214, 216);
+}
+
+#principal{
+    font-size: 40px;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#animals-container{
+    background-color: rgb(241, 219, 189);
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
